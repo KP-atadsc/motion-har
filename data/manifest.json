@@ -1,0 +1,87 @@
+{
+  "source": "https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip",
+  "doi": "10.24432/C54S4K",
+  "source_sha256": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031",
+  "features_sha256": "586b876072f5596ea435bcf4f3fd89a100aa78e33f910cad24578f9e8ba30352",
+  "sample_rate_hz": 50,
+  "window_samples": 128,
+  "feature_names": [
+    "x_mean_g",
+    "y_mean_g",
+    "z_mean_g",
+    "norm_mean_g",
+    "x_sd_g",
+    "y_sd_g",
+    "z_sd_g",
+    "norm_sd_g",
+    "x_iqr_g",
+    "y_iqr_g",
+    "z_iqr_g",
+    "norm_iqr_g",
+    "x_mean_abs_step_g",
+    "y_mean_abs_step_g",
+    "z_mean_abs_step_g",
+    "norm_mean_abs_step_g",
+    "x_lag4_corr",
+    "y_lag4_corr",
+    "z_lag4_corr",
+    "norm_lag4_corr",
+    "x_peak_hz",
+    "y_peak_hz",
+    "z_peak_hz",
+    "norm_peak_hz",
+    "x_power_0p4_2",
+    "y_power_0p4_2",
+    "z_power_0p4_2",
+    "norm_power_0p4_2",
+    "x_power_2_5",
+    "y_power_2_5",
+    "z_power_2_5",
+    "norm_power_2_5",
+    "x_power_5_12",
+    "y_power_5_12",
+    "z_power_5_12",
+    "norm_power_5_12",
+    "corr_xy",
+    "corr_xz",
+    "corr_yz"
+  ],
+  "examples": [
+    {
+      "file": "activity-1.csv",
+      "label": "caminhando",
+      "subject": 2,
+      "official_test_row_zero_based": 79
+    },
+    {
+      "file": "activity-2.csv",
+      "label": "subindo escadas",
+      "subject": 2,
+      "official_test_row_zero_based": 133
+    },
+    {
+      "file": "activity-3.csv",
+      "label": "descendo escadas",
+      "subject": 2,
+      "official_test_row_zero_based": 109
+    },
+    {
+      "file": "activity-4.csv",
+      "label": "sentado",
+      "subject": 2,
+      "official_test_row_zero_based": 31
+    },
+    {
+      "file": "activity-5.csv",
+      "label": "em pé",
+      "subject": 2,
+      "official_test_row_zero_based": 0
+    },
+    {
+      "file": "activity-6.csv",
+      "label": "deitado",
+      "subject": 2,
+      "official_test_row_zero_based": 55
+    }
+  ]
+}
